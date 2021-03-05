@@ -9,5 +9,11 @@ function write($input)
 function queryDB($query)
 {
     global $conn;
+    return $conn->query($query)->fetch();
+}
+
+function queryAllDB($query)
+{
+    global $conn;
     return $conn->query($query)->fetchAll();
 }
