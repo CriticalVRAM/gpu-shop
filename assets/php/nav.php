@@ -7,14 +7,14 @@
             <?php
             require "isLogged.php";
 
-            if ($is_admin) : ?>
+            if ($isAdmin) : ?>
                 <li class="nav-item">
                     <a class="nav-link" href="admin-pannel.php">Admin Panel</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="logout.php">Logout</a>
                 </li>
-            <?php elseif ($is_logedin) : ?>
+            <?php elseif ($isLogged) : ?>
                 <li class="nav-item">
                     <a class="nav-link" href="cart.php">Cart</a>
                 </li>

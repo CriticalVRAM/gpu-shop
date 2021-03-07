@@ -1,4 +1,4 @@
 <?php
-$is_admin = 0;
-$is_logedin = isset($_SESSION["userID"]);
-if ($is_logedin) $is_admin = $_SESSION["userID"] == 6;
+$isAdmin = false;
+$isLogged = isset($_SESSION["userID"]);
+if ($isLogged) $isAdmin = $_SESSION["userID"] == 6;
