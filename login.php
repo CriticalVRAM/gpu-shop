@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require_once "assets/component/header.php" ?>
+<?php require "./assets/php/header.php" ?>
 
 <body>
 
-    <?php require "assets/component/nav.php" ?>
+    <?php require "./assets/php/nav.php" ?>
 
     <h1 class="mb-5">Login</h1>
 

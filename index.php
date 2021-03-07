@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require "assets/component/header.php" ?>
+<?php require "./assets/php/header.php" ?>
 <?php session_start(); ?>
 
 <body>
-  <?php require "assets/component/nav.php" ?>
+  <?php require "./assets/php/nav.php" ?>
   <h1>GPU Shop</h1>
+  <p id="msg">Welcome to the GPU Shop</p>
   <section class="filter mb-4">
     <div class="container filter__container-inner">
 
@@ -24,7 +25,7 @@
         </select>
       </div>
 
-      <div>
+      <div id="type">
         <div>
           <label for="nvidia">nVidia</label>
           <input type="checkbox" name="type" id="nVidia" value="nVidia">

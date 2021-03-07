@@ -17,3 +17,11 @@ function queryAllDB($query)
     global $conn;
     return $conn->query($query)->fetchAll();
 }
+
+/*
+function addToCart($productID)
+{
+    // INSERT INTO cart_product(userID, productID, quantity) VALUES (?, ?, ?)
+    $insert = $conn->prepare("");
+}
+*/

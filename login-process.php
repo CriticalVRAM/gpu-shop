@@ -1,5 +1,5 @@
 <?php
-require_once "assets/php/func.php";
+require "./assets/php/func.php";
 
 $email = $_REQUEST["email"];
 $pass = $_REQUEST["pass"];
