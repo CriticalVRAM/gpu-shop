@@ -41,3 +41,15 @@ function addToCart($userID, $productID, $isNew)
         $update->execute();
     }
 }
+
+function deleteFromCart($userID, $producutID)
+{
+    global $conn;
+    $sql = "DELETE FROM cart_product WHERE userID=? AND productID=?";
+    $delete = $conn->prepare($sql);
+
+    $delete->bindParam(1, $userID);
+    $delete->bindParam(2, $producutID);
+
+    $delete->execute();
+}

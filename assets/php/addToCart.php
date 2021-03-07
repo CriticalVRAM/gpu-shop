@@ -9,7 +9,7 @@ else if ($isLogged) {
 
     $userID = $_SESSION["userID"];
     $productID = $_REQUEST["productID"];
-    $isNew = empty(queryDB("SELECT quantity FROM cart_product WHERE userID={$userID}"));
+    $isNew = empty(queryDB("SELECT quantity FROM cart_product WHERE userID={$userID} AND productID={$productID}"));
 
     try {
         addToCart($userID, $productID, (int)$isNew);
