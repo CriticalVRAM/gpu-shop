@@ -1,5 +1,5 @@
 <div class="navbar-expand">
-    <nav class="navbar">
+    <nav class="navbar navbar-dark bg-dark mb-4">
         <a href="index.php"><img class="navbar-brand" src="assets/img/logo_small.png" alt="logo"></a>
 
         <ul class="navbar-nav mr-auto">
