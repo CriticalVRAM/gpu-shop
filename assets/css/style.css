@@ -19,6 +19,9 @@ body {
   justify-items: center;
   gap: 5px;
 }
+.about__img {
+  width: 500px;
+}
 
 .filter__container-inner {
   display: grid;
