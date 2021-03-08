@@ -9,7 +9,7 @@
 
             if ($isAdmin) : ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="admin-pannel.php">Admin Panel</a>
+                    <a class="nav-link" href="adminPanel.php">Admin Panel</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="logout.php">Logout</a>

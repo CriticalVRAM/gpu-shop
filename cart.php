@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require "./assets/php/header.php" ?>
 <?php session_start(); ?>
+<?php require "./assets/php/header.php" ?>
 <?php require "./assets/php/func.php" ?>
 
 <body>
@@ -20,7 +20,7 @@
             <?php
             $userID = $_SESSION["userID"];
             $sql = "SELECT * FROM cart_product cp JOIN product p ON cp.productID = p.productID WHERE cp.userID = {$userID}";
-            foreach (queryAllDB($sql) as $item) :
+            foreach (selectAllDB($sql) as $item) :
             ?>
                 <tr>
                     <td><?= $item->name; ?></td>
@@ -32,3 +32,5 @@
         </tbody>
     </table>
 </body>
+
+</html>

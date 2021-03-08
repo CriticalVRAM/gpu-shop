@@ -14,6 +14,12 @@ body {
   color: gray;
 }
 
+.gridCenter {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
 .filter__container-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;

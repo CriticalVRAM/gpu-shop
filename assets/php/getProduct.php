@@ -1,3 +1,3 @@
 <?php
 require "func.php";
-echo json_encode(queryAllDB("SELECT * FROM product"));
+echo json_encode(selectAllDB("SELECT * FROM product"));
