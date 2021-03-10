@@ -1,6 +1,6 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php session_start(); ?>
 <?php require "./assets/php/header.php" ?>
 
 <body>

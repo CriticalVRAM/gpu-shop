@@ -1,7 +1,7 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php require "./assets/php/header.php" ?>
-<?php session_start(); ?>
 
 <body>
     <?php require "./assets/php/nav.php" ?>
